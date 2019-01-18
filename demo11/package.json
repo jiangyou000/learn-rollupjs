@@ -5,13 +5,16 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "rollup:api": "node rollup.api.js"
+    "rollup:api": "node rollup.api.js",
+    "build": "rollup -c"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "rollup": "^1.1.0",
-    "rollup-plugin-postcss": "^1.6.3"
+    "rollup-plugin-postcss": "^1.6.3",
+    "rollup-plugin-scss": "^0.4.0",
+    "rollup-plugin-serve": "^1.0.0"
   }
 }
